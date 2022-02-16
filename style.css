@@ -1,3 +1,44 @@
-body {
 
+h1 {
+  color: darkblue;  
+  font-size: 60px; 
+}
+
+body {
+  background-color: lightblue 
+  
+}
+
+img {
+  border: solid 5px darkblue; 
+}
+
+img:hover{
+  border: dotted 5px darkblue
+}
+
+h1:hover {
+  color:#8E94F2;
+}
+nav {
+  list-style-type: none; 
+  position: fixed; 
+  background-color: #DAB6FC;
+  top: 0;
+  width: 100%;
+  left:0;
+}
+li {
+  display: inline; 
+  padding: 10px; 
+  float: right;
+}
+li:hover {
+  background-color: silver;
+}
+
+a {
+  text-decoration: none;
+  color: darkblue; 
+}
 }
